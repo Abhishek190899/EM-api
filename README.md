@@ -12,6 +12,18 @@ Prerequisite :
 
 # How to Run
 
+• Set up mongo server
+
 Create a directory *c://data/db* and set up a local mongo server from command prompt by using the following command in the specified Mongodb directory as follows :
 
 ``` mongod --storageEngine=mmapv1 --dbpath C : \data\db ```
+
+• Run the API using following command :
+
+``` sbt run ```
+
+• After server gets started after loading all the required dependencies from the local api directory, open **Postman** and write the url :
+
+``` http://localhost:9000/employees ``` 
+
+Perform CRUD operations to test the API.
