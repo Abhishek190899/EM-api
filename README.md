@@ -22,7 +22,7 @@ Create a directory *c://data/db* and set up a local mongo server from command pr
 
 ``` sbt run ```
 
-• After server gets started after loading all the required dependencies from the local api directory, open **Postman** and write the url :
+• Once the server gets started after loading all the required dependencies from the local api directory, open **Postman** and write the url :
 
 ``` http://localhost:9000/employees ``` 
 
